@@ -1,6 +1,7 @@
-package com.sbsatter.springinaction.dao;
+package com.sbsatter.springinaction.config;
 
 import com.sbsatter.springinaction.config.MusicPlayerConfig;
+import com.sbsatter.springinaction.dao.Album;
 import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
