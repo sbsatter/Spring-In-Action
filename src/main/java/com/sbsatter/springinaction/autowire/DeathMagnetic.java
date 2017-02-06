@@ -1,4 +1,4 @@
-package com.sbsatter.springinaction.dao;
+package com.sbsatter.springinaction.autowire;
 
 import org.springframework.stereotype.Component;
 

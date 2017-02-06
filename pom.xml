@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sbsatter.springinaction</groupId>
-    <artifactId>auto-wiring</artifactId>
+    <artifactId>all-modules</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>auto-wiring Maven Webapp</name>
@@ -36,6 +36,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>auto-wiring</finalName>
+        <finalName>all-modules</finalName>
     </build>
 </project>

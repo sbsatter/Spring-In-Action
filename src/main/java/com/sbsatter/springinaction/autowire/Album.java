@@ -1,4 +1,4 @@
-package com.sbsatter.springinaction.dao;
+package com.sbsatter.springinaction.autowire;
 
 /**
  * Created by sbsatter on 2/6/17.

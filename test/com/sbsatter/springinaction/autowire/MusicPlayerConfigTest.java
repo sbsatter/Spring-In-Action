@@ -1,7 +1,5 @@
-package com.sbsatter.springinaction.config;
+package com.sbsatter.springinaction.autowire;
 
-import com.sbsatter.springinaction.config.MusicPlayerConfig;
-import com.sbsatter.springinaction.dao.Album;
 import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -29,6 +27,6 @@ public class MusicPlayerConfigTest {
 	
 	@Test
 	public void albumShouldContainString(){
-		assertThat(album.play(), CoreMatchers.containsString("play"));
+		assertThat(album.play(), CoreMatchers.containsString("Metallica"));
 	}
 }
