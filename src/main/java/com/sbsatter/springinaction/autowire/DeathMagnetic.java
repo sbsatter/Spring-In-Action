@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * Created by sbsatter on 2/6/17.
  */
 @Component
-public class DeathMagnetic implements Album {
+public class DeathMagnetic implements CompactDisc {
 	private String title = "Unforgiven III";
 	private String artist = "Metallica";
 	

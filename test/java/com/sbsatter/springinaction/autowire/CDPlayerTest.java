@@ -15,18 +15,18 @@ import static org.junit.Assert.assertThat;
  * Created by sbsatter on 2/6/17.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes= MusicPlayerConfig.class)
-public class MusicPlayerConfigTest {
+@ContextConfiguration(classes= CDPlayerConfig.class)
+public class CDPlayerTest {
 	@Autowired
-	private Album album;
+	private CompactDisc compactDisc;
 	
 	@Test
 	public void albumShouldNotBeNull(){
-		assertNotNull(album);
+		assertNotNull(compactDisc);
 	}
 	
 	@Test
 	public void albumShouldContainString(){
-		assertThat(album.play(), CoreMatchers.containsString("Metallica"));
+		assertThat(compactDisc.play(), CoreMatchers.containsString("Metallica"));
 	}
 }
