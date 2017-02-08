@@ -13,6 +13,7 @@ public class DeathMagnetic implements CompactDisc {
 	public String play(){
 //		System.out.println("Currently playing: " + title + " by " + artist);
 		String state = "Currently playing: " + title + " by " + artist;
+		System.out.println(state);
 		return state;
 	}
 }
